@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "types": ["jest"],
+    "paths": {
+      "@my-workspace/prisma": ["libs/prisma/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

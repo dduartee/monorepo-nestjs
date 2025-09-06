@@ -38,7 +38,12 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/my-workspace-e2e/**/*"]
+      "exclude": [
+        "apps/my-workspace-e2e/**/*",
+        "apps/app02-e2e/**/*",
+        "apps/UserApp-e2e/**/*",
+        "apps/PostApp-e2e/**/*"
+      ]
     }
   ]
 }
