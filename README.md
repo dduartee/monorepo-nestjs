@@ -25,6 +25,12 @@ Este repostório contém um monorepo configurado com o Nx, que inclui duas aplic
     - `prisma.module.ts`: Módulo Prisma.
     - `prisma.service.ts`: Serviço Prisma.
 
+### Swagger
+
+- A documentação da API pode ser acessada em:
+  - UserApp [http://localhost:3001/api]
+  - PostApp [http://localhost:3002/api]
+
 ### Extensões VSCode recomendadas
 
 - [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) (executa comandos do Nx via interface gráfica)
